@@ -11,5 +11,5 @@ class users extends Model
     protected $table = 'users1';
     public $timestamps = false;
     protected $primaryKey = 'user_id';
-    protected $fillable = ['user_id', 'fecha_nacimiento'];
+    protected $fillable = ['user_id','nom_usuario', 'fecha_nacimiento'];
 }

@@ -14,6 +14,7 @@ class usersFactory extends Factory
     public function definition()
     {
         return [
+            'nom_usuario' => $this->faker->name(),
             'fecha_nacimiento' => $this->faker->date()
         ];
     }

@@ -15,6 +15,7 @@ class Usuarios extends Migration
     {
         Schema::create('users1', function (Blueprint $table) {
             $table->id('user_id');
+            $table->string('nom_usuario');
             $table->date('fecha_nacimiento');
         });
     }
